@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menggambar Segitiga</title>
+</head>
+<body>
+    <canvas id="meCanvas" width="500" height="500" style="border: 2px solid black"></canvas>
+
+    <script type="text/javascript">
+        var canvas = document.getElementById("meCanvas");
+        var gl = canvas.getContext("2d");
+
+        gl.beginPath();
+        gl.moveTo(225, 100);
+        gl.lineTo(225, 225);
+        gl.lineTo(100, 225);
+        gl.closePath();
+        gl.stroke();
+    </script>
+
+    <script type="text/javascript">
+        var canvas = document.getElementById("meCanvas");
+        var gl = canvas.getContext("2d");
+
+        gl.beginPath();
+        gl.moveTo(275, 100);
+        gl.lineTo(275, 225);
+        gl.lineTo(400, 225);
+        gl.closePath();
+        gl.stroke();
+    </script>
+
+    <script type="text/javascript">
+        var canvas = document.getElementById("meCanvas");
+        var gl = canvas.getContext("2d");
+
+        gl.beginPath();
+        gl.moveTo(100, 275);
+        gl.lineTo(225, 275);
+        gl.lineTo(225, 400);
+        gl.closePath();
+        gl.stroke();
+    </script>
+
+    <script type="text/javascript">
+        var canvas = document.getElementById("meCanvas");
+        var gl = canvas.getContext("2d");
+
+        gl.beginPath();
+        gl.moveTo(275, 275);
+        gl.lineTo(400, 275);
+        gl.lineTo(275, 400);
+        gl.closePath();
+        gl.stroke();
+    </script>
+</body>
+</html>
